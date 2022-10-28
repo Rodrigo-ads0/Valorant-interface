@@ -10,9 +10,10 @@ body {
     width: 100vw;
     height: 100vh;
     /* background-image: url(img/tela\ de\ fundo.png);  */
-    background-image: url(img/fundo\ harbor.png);
-    background-repeat: no-repeat;
-    background-size: cover;  
+    /* background-image: url(img/fundo\ harbor.png); */
+    /* background-repeat: no-repeat;
+    background-size: cover;   */
+    background-color: black;
 }
 
 a {
@@ -389,3 +390,13 @@ h1 {
  .primeiro p {
     color: white;
  }
+
+.fundo {
+    position: absolute;
+    z-index: -100;
+}
+
+video {
+    width: 1920px;
+    height: 1070px;
+}
