@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+    /* background-image: url(img/tela\ de\ fundo.png);  */
+    background-image: url(img/fundo\ harbor.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
+}
+
+a {
+    color: white;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.nav-bar {
+    border: 1px solid transparent;
+    height: 50px;
+    cursor: pointer;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.left {
+    /* border: 1px solid red; */
+    width: 600px;
+    height: 100%;
+}
+
+.jogar{
+    font-size: 90px;
+    color: rgb(255, 51, 51);
+}
+
+.ul-menu {
+    color: white;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-top: 38%;
+    gap: 16.5px;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.rigth{
+    /* border: 1px solid red; */
+    width: 500px;
+    height: 100%;
+}
+
+.logo-img {
+    margin-left: 11px;
+    width: 75px;
+}
+
+h1 {
+    font-size: 40px;
+}
+.logo-txt {
+    margin-top: 10px ;
+    color: white;
+}
+
+.logo {
+    display: flex;
+}
+
+.friends-bar {
+    display: flex;
+    justify-content: right;
+    /* border: 1px solid blue; */
+    
+}
+
+.friend {
+    position: fixed;
+    bottom: 0;
+    left: 1868px;
+    width: 256px;
+    cursor: pointer;
+}
+
+.friend:hover{
+    left: 1670px;
+    transition: 0.3s;
+}
+
+
+.ad {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid red; */
+    width: 410px;
+    height: 95%;
+    gap: 10px;
+    padding-left: 81px;
+    padding-top: 30px ;
+}
+
+.ad1 {
+    border: 2px solid gray;
+    background-image: url(img/Harbor.jpg);
+    background-position: center;
+    background-size: 250%;
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 450px;
+}
+
+.ad2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    display: flex;
+    padding-top: 170px;
+    padding-left: 10px;
+    border: 2px solid gray;
+    background-image: url(img/GC_FINAL.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 320px;
+    height: 240px;
+}
+
+.nt {
+    padding-top: 7px;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid gray;
+    width: 320px;
+    height: 70px;
+    background-color: rgb(8, 28, 44,0.5);
+    
+}
+
+.destaque {
+    border: 2px solid gray;
+    width: 320px;
+    height: 150px;
+    background-color: rgb(8, 28, 44,0.5);
+}
+
+.gray {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background-color: gray;
+    width: 100%;
+    height: 20px;
+}
+
+.gray p {
+    color: rgb(209, 209, 209);
+}
+
+.jogar {
+}
+
+.jogar:hover {
+    color: aqua;
+}
+
+.icon {
+    width: 23px;
+    transition: all 0.1s;
+    cursor: pointer;
+}
+
+.jogar:hover .icon{
+    width: 30px;
+    transform: rotateZ(360deg);
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+
+.animar:hover .icon, .animar2:hover .icon{
+    width: 30px;
+    transform: rotateZ(360deg);
+    -webkit-transform: rotateZ(360deg);
+    transform: rotateZ(360deg);
+}
+
+.animar:hover, .animar2:hover{
+    color: aqua;
+}
+
+.animar {
+    width: 240px;
+}
+
+.animar2 {
+    width: 410px;
+}
+
+.ad1, .ad2{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.ad1:hover, .ad2:hover{
+    -webkit-filter: blur(5px);
+    filter: blur(2px);
+}
+
+.logo-txt h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    -webkit-text-stroke: 0.01rem rgba(255, 255, 255, 0.76);
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 2px;
+}
+
+.logo-txt p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+}
+
+.chat {
+    margin-top: 245px;
+    padding-left: 5px;
+}
+
+#chat-txt {
+    background-color: rgba(5, 5, 17, 0.6);
+    border: none;
+    width: 460px;
+    height: 25px;
+    padding-left: 10px;
+    color: white;
+    
+}
+
+#chat-txt::placeholder {
+    font-weight: bold;
+    opacity: .5;
+    color: aqua;
+}
+
+#chat-txt::placeholder {
+
+}
+
+#chat-txt:focus{
+    outline: 1px solid transparent;
+ }
+
+.clock {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    /* margin-right: 90px; */
+}
+
+.clock img {
+    width: 50px;
+    height: 50px;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid transparent;
+    height: 50px;
+}
+
+.rp-vp {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.rp-vp img {
+    width: 50px;
+    height: 50px;
+}
+
+.settings img {
+    margin-left: 20px;
+    width: 55px;
+    height: 55px;
+}
+
+.destaque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    gap: 2px;
+}
+
+.destaque h1 {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    padding-bottom: 8px;
+}
+
+.disparada, .replicacao {
+    width: 100%;
+    height: 50px;
+    display: flex;
+}
+
+.zero, .zero1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(182, 179, 179, 0.74);
+    width: 25%;
+    height: 100%;
+}
+
+.primeiro {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 15PX;
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.74);
+    width: 80%;
+    height: 100%;
+ }
+
+.segundo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 12PX;
+    color: rgba(255, 255, 255, 0.658);
+    background-color: rgba(128, 128, 128, 0.397);
+    width: 40%;
+    height: 100%;
+ }
+ 
+
+ .zero img {
+    width: 45px;
+    height: 45px;
+    opacity: 0.8;
+ }
+
+ .zero1 img {
+    width: 45px;
+    height: 50px;
+    opacity: 0.8;
+ }
+
+ .primeiro p {
+    color: white;
+ }
